@@ -1,0 +1,20 @@
+public class que_1 {
+
+	public static void main(String[] args)
+	{
+		shape s =new shape();
+		s.draw();
+		s.erase();
+	}
+}
+class shape
+{
+	public void draw()
+	{
+		System.out.println("Drawing Shape");
+	}
+	public void erase()
+	{
+		System.out.println("Erasing Shape");
+	}
+}
